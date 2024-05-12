@@ -1,0 +1,31 @@
+.card-header {
+    background-color: #a35737;
+    border: 1px solid #dee2e6;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+  }
+  
+  .card-body {
+    background-color: #645151;
+    border: 1px solid #dee2e6;
+  }
+  
+  .card-header.active {
+    background-color: #007bff;
+  }
+  
+  .card-header.active h2 {
+    color: #c00b0b;
+  }
+  
+  .card-body.active {
+    border-top: none;
+  }
+  
+  .card-header:hover {
+    background-color: #0c68c4;
+    cursor: pointer;
+  }
+  
